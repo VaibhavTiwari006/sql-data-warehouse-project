@@ -1,15 +1,17 @@
 # SQL Data Warehouse Project
 
-<a href="https://www.linkedin.com/in/vaibhavtiwari006/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
-</a>
+<p align="left">
+  <a href="https://www.linkedin.com/in/vaibhavtiwari006/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Tiwari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 
-<br><br>
+  <a href="mailto:vaibhav.cse006@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 Built an end-to-end SQL Data Warehouse using SQL Server using a layered architecture approach (Bronze → Silver → Gold), implementing ETL pipelines, data transformation, data quality validation, and analytical modeling.
-
 ---
-
 ## Project Overview
 
 This project demonstrates the design and implementation of a modern SQL Data Warehouse architecture.
