@@ -1,14 +1,18 @@
-SQL Data Warehouse Project
+# SQL Data Warehouse Project
 
+<a href="https://www.linkedin.com/in/vaibhavtiwari006/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+</a>
 
+<br><br>
 
+Built an end-to-end SQL Data Warehouse using SQL Server using a layered architecture approach (Bronze → Silver → Gold), implementing ETL pipelines, data transformation, data quality validation, and analytical modeling.
 
-Built an end-to-end SQL Data Warehouse using SQL Server with a layered architecture approach (Bronze → Silver → Gold), implementing ETL pipelines, data transformation, quality validation, and analytical modeling.
 ---
 
 ## Project Overview
 
-This project demonstrates the design and implementation of a modern SQL Data Warehouse using a multi-layer architecture.
+This project demonstrates the design and implementation of a modern SQL Data Warehouse architecture.
 
 The pipeline extracts data from multiple source systems, transforms and standardizes records, validates data quality, and loads curated analytical datasets for reporting and business analysis.
 
@@ -18,7 +22,7 @@ The pipeline extracts data from multiple source systems, transforms and standard
 * Implement ETL workflows using SQL
 * Perform data cleansing and transformation
 * Apply data quality validation
-* Create analytical datasets for reporting
+* Create analytical datasets for reporting and analytics
 
 ---
 
@@ -73,15 +77,15 @@ sql-data-warehouse-project/
 
 ### Bronze Layer
 
-Stores raw data ingested from source systems with minimal transformation.
+Stores raw data extracted from source systems with minimal transformation.
 
 ### Silver Layer
 
-Performs cleansing, standardization, enrichment, and quality improvement.
+Performs cleansing, standardization, enrichment, and data quality improvement.
 
 ### Gold Layer
 
-Creates business-ready dimensional and analytical models.
+Creates business-ready analytical datasets for reporting and decision-making.
 
 ---
 
@@ -89,11 +93,11 @@ Creates business-ready dimensional and analytical models.
 
 ### CRM Data
 
-Contains customer and transactional source data.
+Contains customer and transactional data.
 
 ### ERP Data
 
-Contains operational and business process datasets.
+Contains operational and business process data.
 
 ---
 
@@ -101,16 +105,17 @@ Contains operational and business process datasets.
 
 Quality checks implemented for:
 
-* Null values
-* Duplicate records
-* Data consistency
-* Validation rules
+* Null value detection
+* Duplicate record checks
+* Data consistency validation
+* Business rule validation
 
 ---
 
 ## Technologies Used
 
-* SQL Server Management Studio 19
+* SQL Server
+* SQL Server Management Studio (SSMS)
 * T-SQL
 * Draw.io
 * Git
@@ -121,26 +126,24 @@ Quality checks implemented for:
 
 ## How to Run
 
-1. Initialize database
-2. Execute Bronze scripts
-3. Execute Silver scripts
-4. Execute Gold scripts
-5. Run quality checks
+1. Initialize the database
+2. Execute Bronze layer scripts
+3. Execute Silver layer scripts
+4. Execute Gold layer scripts
+5. Execute data quality checks
 
 ---
 
 ## Outcomes
 
 * Implemented a layered warehouse architecture
-* Automated ETL process
-* Created analytical datasets
+* Built ETL workflows using SQL
+* Automated data transformation processes
 * Applied data quality validation
+* Generated analytical datasets
 
 ---
 
 ## License
 
-This project follows the MIT License.
-
-https://www.linkedin.com/in/vaibhavtiwari006/
-
+This project is licensed under the MIT License.
